@@ -1,13 +1,3 @@
-<?php
-  $prenom = 'Lamine';
-  $age = 35;
-  $taile = 1.77;
-  $isAGoat = true;
-
-  ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
