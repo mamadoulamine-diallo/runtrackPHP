@@ -3,12 +3,14 @@ $getData = $_GET;
 $count = 0;
 
 foreach ($getData as $data) {
-  if (isset($getData['name']) AND isset($getData['email'])) {
     $count++;
-  }
+  
+};
+if (isset($getData['name']) AND isset($getData['email'])) {
+
+  echo 'votre nom : ' .$getData['name'] . '<br>'. ' votre email : ' . $getData['email']. '<br>';
+  echo 'il ya ' .$count .' arguments';
 }
-echo 'votre nom : ' .$getData['name'] . '<br>'. ' votre email : ' . $getData['email']. '<br>';
-echo 'il ya ' .$count .' arguments';
 
 echo "<pre>";
 var_dump($getData);
